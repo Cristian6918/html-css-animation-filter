@@ -117,3 +117,14 @@
 .ex-7-img{
     transition: filter 2s;
 }
+
+/* ex8 */
+.ex-8-img:hover{
+    filter:sepia(50%);
+    filter: grayscale(70%);
+    border-radius:20px;
+}
+
+.ex-8-img{
+    transition:filter 2s, border-radius 2s;
+}
